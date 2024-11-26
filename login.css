@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242, 245, 250);
+    position: relative;
+    height: 115vh;
+    overflow-x: hidden;
+}
+.fb{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 12vw;
+    top: 28vh;
+    margin-right: 30vw;
+}
+.title{
+    color: rgb(8, 102, 255);
+    font-weight: bolder;
+    padding-right:300px;
+    font-size: 74px;
+    letter-spacing: -2px;
+}
+.tagline{
+    padding-top: 10px;
+    font-size: 34px;
+    text-align: left;
+}
+.login-box{
+    position: relative;
+    background-color: white;
+    height: 440px;
+    width: 650px;
+    right: 12vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 21vh;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+
+}
+.forgot-password{
+    margin: 18px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(8, 102, 255);
+
+}
+.forgot-password:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+hr{
+    width: 95%;
+    height: 0.1%;
+    background-color: rgb(194,193,193);
+    border: none;
+}
+.email,.pw{
+    height: 16%;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 95%;
+    border: 1.5px solid rgb(238,239,240);
+}
+.pw{
+    margin-bottom: 12px;
+}
+.email:focus,.pw:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgb(113,158,206);
+    caret-color: blue;
+}
+.sub{
+    background-color: rgb(8, 102, 255);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    height: 60px;
+    font-weight: bold;
+    width: 95%;
+}
+.sub:hover{
+    background-color: rgb(31, 119, 235);
+    cursor: pointer;
+    transition: 1s;
+}
+.create-account{
+    background-color: rgb(66,183,40);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 15%;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 30px;
+}
+.create-account:hover{
+    background-color: rgb(54,164,32);
+    cursor: pointer;
+    transition: 1s;
+}
+.footer{
+    font-size: 17px;
+    position: absolute;
+    bottom: -55px;
+}
+

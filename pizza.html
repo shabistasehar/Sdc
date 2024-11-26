@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pizza</title>
+        <style>
+            .bod{
+                width: 800px;
+                padding: 10px;
+                border: 1px solid ;
+                margin: auto;
+                text-align: center;
+                
+                box-shadow: 50px;
+                font-family: arial;
+                object-fit: scale-down;
+                box-sizing: content-box;
+                background-image: url(https://media.istockphoto.com/id/1412198876/vector/ingredients-pizza-thin-line-seamless-pattern-background-vector.jpg?s=612x612&w=0&k=20&c=7GO0fHbK_t1Hy03sLHkBX1uqLrUfHQRq0H-qlNij6Uk=);
+                
+                
+                            
+            }
+            .head{
+                
+                border: 0px solid;
+                text-align: center;
+                font-size: 30px;
+                height: 70px;
+                font-weight: bold;
+                color: ivory;
+                padding-top: 15px;
+                box-sizing: border-box;
+                background-color:rgb(108, 151, 43);
+                padding-bottom: 20px;
+                margin-top: none;
+                margin-bottom: none;
+                margin-left: none;
+                margin-right: none;
+            }
+            .subtitle{
+                border: 0px solid;
+                text-align: center;
+                font-size: 18px;
+                height: 25px;
+                font-weight: bold;
+                color: black;
+                background-color: rgb(230, 223, 223);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-image: url();
+                margin-top: none;
+                margin-bottom: none;
+                margin-left: none;
+                margin-right: none;
+            
+            }
+            .form{
+                padding-top: 18px;
+                line-height: 5px;
+                color: black;
+                font-weight: 20px;
+                line-height: 10px;
+            }
+            .details{
+                font-weight: bold;
+                text-align: justify;
+                line-height: 20px;
+                height: 210px;
+                
+                
+                
+            }
+            .orderdetails{
+                margin-top: 25px;
+                box-shadow: 1px solid black;
+                margin-bottom: 25px;
+                color: black;
+                font-size: large;
+                text-align: justify;
+                font-weight: bold;
+                line-height: 5px;
+                
+                
+
+                
+            }
+            .toppings{
+                display: inline-block;
+                width: 210px;
+                vertical-align: top;
+
+            }
+            .size{
+                display: inline-block;
+                width: 210px;
+                vertical-align: top;
+                
+            }
+            .extras{
+                width: 210px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .orderins{
+                display: block;
+                font-weight: bold;
+                
+
+
+            }
+            .sumbit{
+                margin-top: 30px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: white;
+                font-size: 20px;
+                box-shadow: none;
+                border: none;
+                border-radius: 30px;
+                background-color: rgb(108, 151, 43);
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="bod" >
+            <div class="head">
+                <header  class="title">Pete's Pizza Delivery</header>
+            </div>
+            <div class="subtitle">
+                <header class="title1">Online Order Form</header>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="details">
+                    *Name:<input type="text" class="name" name="name" requried>
+                    <br><br>
+                    *Address:<input type="text" class="add" name="address"><br>
+                    <br>
+                    *Town/City:<input type="text" class="city" name="city"><br>
+                    <br>
+                    *PostCode:<input type="text" class="ps" name="postcode"><br>
+                    <br>
+                    *Tel:<input type="number" class="tel" name="tel" requried>
+                    <br>
+                    <br>
+                    Email:<input type="email" class="email" name="email"><br>
+                    <br>
+                </div>
+                    <div class="orderdetails">
+                        <div class="toppings">
+                            <h2>Toppings:</h2><br>
+                        <input type="radio" name="topping"> Margherita<br>
+                        <input type="radio" name="topping"> Four Seasons<br>
+                        <input type="radio" name="topping"> Meat Feast<br>
+                        </div>
+                        <div class="size">
+                            <h2>Size</h2>
+                            <input type="radio" name="size">Small<br>
+                            <input type="radio" name="size">Medium<br>
+                            <input type="radio" name="size">Large<br>
+                        </div>
+                        <div class="extras">
+                            <h2>Extras</h2>
+                            <input type="radio" name="extras">Mushrooms<br>
+                            <input type="radio" name="extras">Green Peas<br>
+                            <input type="radio" name="extras">Extra Cheese<br>
+                        </div>
+                    </div>
+                    <div class="orderins ">
+                        Date-Time
+                        <input type="datetime-local" name="date">
+                        <br><br>
+                        Instructions
+                        <input type="text" name="instructions" placeholder="enter instructions for delivery man">
+                    </div>
+                    <button class="sumbit">Place Order</button>
+
+                </form>
+                    
+
+            </div>
+            
+            
+        </div>
+       
+
+    </body>
+</html>
